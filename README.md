@@ -13,3 +13,4 @@
 ### Structural Pattern
 
 ### Behavioural Pattern
+* Chain of Responsibility: [x]
