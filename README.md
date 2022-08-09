@@ -16,3 +16,4 @@
 * Chain of Responsibility: [x]
 * Command: [x]
 * Iterator: [x]
+* Mediator: [x]
