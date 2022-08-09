@@ -4,6 +4,9 @@ import iterator.implementations.WordCollections;
 import iterator.interfaces.Iterator;
 
 /**
+* Iterator is a behavioral design pattern that allows sequential traversal through a complex data structure 
+* without exposing its internal details.
+* 
  * The client code may or may not know about the Concrete Iterator or Collection
  * classes, depending on the level of indirection you want to keep in your
  * program.
