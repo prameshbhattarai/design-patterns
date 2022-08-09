@@ -15,3 +15,4 @@
 ### Behavioural Pattern
 * Chain of Responsibility: [x]
 * Command: [x]
+* Iterator: [x]
