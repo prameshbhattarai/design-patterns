@@ -6,6 +6,9 @@ import chain_of_responsibility.implementations.SquirrelHandler;
 import chain_of_responsibility.interfaces.RequestType;
 
 /**
+* Chain of Responsibility is a behavioral design pattern that lets you pass requests along a chain of handlers. 
+* Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
+* 
  * The client code is usually suited to work with a single handler. In most
  * cases, it is not even aware that the handler is part of a chain.
  */
