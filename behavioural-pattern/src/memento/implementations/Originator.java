@@ -20,7 +20,7 @@ public class Originator {
     
     public void doSomeAction() {
         System.out.println("Originator:: change the state ...");
-        this.state = this.shuffle();
+        this.state = this.shuffle(this.state);
         System.out.printf("Originator:: state has been changed to \" %s \" %n", this.state);
     }
     
@@ -34,8 +34,8 @@ public class Originator {
         System.out.printf("Originator:: state has been changed to \" %s \" %n", this.state);
     }
     
-    private String shuffle() {
-        List<String> words = Arrays.asList(this.state.split(" "));
+    private String shuffle(String text) {
+        List<String> words = Arrays.asList(text.split(" "));
         Collections.shuffle(words);
         return String.join(" ", words);
     }

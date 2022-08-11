@@ -18,3 +18,4 @@
 * Iterator: [x]
 * Mediator: [x]
 * Memento: [x]
+* Observer: [x]
