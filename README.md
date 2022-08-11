@@ -17,3 +17,4 @@
 * Command: [x]
 * Iterator: [x]
 * Mediator: [x]
+* Memento: [x]
