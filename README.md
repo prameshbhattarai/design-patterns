@@ -20,3 +20,4 @@
 * Memento: [x]
 * Observer: [x]
 * State: [x]
+* Strategy: [x]
