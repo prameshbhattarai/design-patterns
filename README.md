@@ -19,3 +19,4 @@
 * Mediator: [x]
 * Memento: [x]
 * Observer: [x]
+* State: [x]
