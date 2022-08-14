@@ -4,20 +4,21 @@
 * Java 17
 
 ### Creational Pattern
-* Abstract Factory Pattern: [x]
-* Builder Pattern: [x]
-* Factory Pattern: [x]
-* Prototype Pattern: [x]
-* Singleton Pattern: [x]
+- [X] Abstract Factory Pattern
+- [X] Builder Pattern
+- [X] Factory Pattern
+- [X] Prototype Pattern
+- [X] Singleton Pattern
 
 ### Structural Pattern
 
 ### Behavioural Pattern
-* Chain of Responsibility: [x]
-* Command: [x]
-* Iterator: [x]
-* Mediator: [x]
-* Memento: [x]
-* Observer: [x]
-* State: [x]
-* Strategy: [x]
+- [X] Chain of Responsibility
+- [X] Command
+- [X] Iterator
+- [X] Mediator
+- [X] Memento
+- [X] Observer
+- [X] State
+- [X] Strategy
+- [X] Template
