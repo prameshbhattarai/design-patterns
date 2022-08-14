@@ -22,3 +22,4 @@
 - [X] State
 - [X] Strategy
 - [X] Template
+- [X] Visitor
