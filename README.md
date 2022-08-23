@@ -12,6 +12,7 @@
 
 ### Structural Pattern
 - [X] Adapter Pattern
+- [X] Bridge Pattern
 
 ### Behavioural Pattern
 - [X] Chain of Responsibility
