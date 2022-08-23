@@ -5,9 +5,9 @@ package factory.interfaces;
  * object of a Product class. The Creator's subclasses usually provide the
  * implementation of this method.
  */
-public abstract class Factory {
+public abstract_pattern class Factory {
 
-    public abstract Product createProduct();
+    public abstract_pattern Product createProduct();
 
     /**
      * This default action is applied to all the factories and can be overridden.

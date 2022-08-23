@@ -2,12 +2,12 @@ package template.interfaces;
 
 /**
  * The Abstract Class defines a template method that contains a skeleton of some
- * algorithm, composed of calls to (usually) abstract primitive operations.
+ * algorithm, composed of calls to (usually) abstract_pattern primitive operations.
  *
  * Concrete subclasses should implement these operations, but leave the template
  * method itself intact.
  */
-public abstract class BaseTemplate {
+public abstract_pattern class BaseTemplate {
 
     public void templateMethod() {
         this.baseOperation1();
@@ -30,10 +30,10 @@ public abstract class BaseTemplate {
         System.out.println("BaseTemplate:: Doing baseOperation2");
     }
     
-    // abstract methods.. only the method signature is defined in the BaseTemplate
-    public abstract void requiredOperation1();
+    // abstract_pattern methods.. only the method signature is defined in the BaseTemplate
+    public abstract_pattern void requiredOperation1();
     
-    public abstract void requiredOperation2();
+    public abstract_pattern void requiredOperation2();
     
     // methods that are not required.. but only defined in the base template
     // with empty implementation..

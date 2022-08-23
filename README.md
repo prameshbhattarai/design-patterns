@@ -11,6 +11,7 @@
 - [X] Singleton Pattern
 
 ### Structural Pattern
+- [X] Adapter Pattern
 
 ### Behavioural Pattern
 - [X] Chain of Responsibility

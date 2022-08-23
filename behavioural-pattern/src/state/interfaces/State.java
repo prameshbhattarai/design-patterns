@@ -8,7 +8,7 @@ import state.implementations.Context;
  * with the State. This backreference can be used by States to transition the
  * Context to another State.
  */
-public abstract class State {
+public abstract_pattern class State {
 
     protected Context context;
     
@@ -16,6 +16,6 @@ public abstract class State {
         this.context = context;
     }
     
-    public abstract void handleTaskA();
-    public abstract void handleTaskB();
+    public abstract_pattern void handleTaskA();
+    public abstract_pattern void handleTaskB();
 }

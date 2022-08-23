@@ -6,7 +6,7 @@ import java.util.Objects;
  * The Shape class that has cloning ability. We'll see how the values of field
  * with different types will be cloned.
  */
-public abstract class Shape {
+public abstract_pattern class Shape {
     
     public int x;
     public int y;
@@ -22,7 +22,7 @@ public abstract class Shape {
         }
     }
     
-    public abstract Shape clone();
+    public abstract_pattern Shape clone();
     
     @Override
     public boolean equals(Object object) {
