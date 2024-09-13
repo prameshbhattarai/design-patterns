@@ -13,7 +13,7 @@ import org.design.pattern.behavioural.visitor.interfaces.CalculatorVisitor;
  * might be helpful to store some intermediate state of the algorithm while
  * executing visitor's methods over various objects of the structure.
  */
-public class PriceCalculatorCalculatorVisitor implements CalculatorVisitor {
+public class PriceCalculatorVisitor implements CalculatorVisitor {
 
     @Override
     public double visit(Book book) {

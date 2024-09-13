@@ -15,8 +15,8 @@ public class Client {
 
     public static void main(String... args) {
         List<Item> items = List.of(
-                new Book("Java Book", 10.17, "1st edition", 0.2),
-                new Toys("Lego", 8.91, "Latest edition", 0.3),
+                new Book("Java Book", 10.17, "1st edition", 20),
+                new Toys("Lego", 8.91, "Latest edition", 30),
                 new Mobile("Doro", 4, "6881", 0)
         );
 
@@ -28,13 +28,13 @@ public class Client {
 
         System.out.println("-----------------------------------");
         System.out.println("The client code works with all visitors via the base Visitor interface:");
-        var priceCalculator = new PriceCalculatorCalculatorVisitor();
+        var priceCalculator = new PriceCalculatorVisitor();
         calculateTotalPrice.accept(items, priceCalculator);
         System.out.println("-----------------------------------");
 
         System.out.println("-----------------------------------");
         System.out.println("It allows the same client code to work with different types of visitors:");
-        var visitor2 = new AfterDiscountCalculatorVisitor();
+        var visitor2 = new DiscountCalculatorVisitor();
         calculateTotalPrice.accept(items, visitor2);
         System.out.println("-----------------------------------");
     }
